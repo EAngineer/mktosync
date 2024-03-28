@@ -1,5 +1,5 @@
 # mktosync
-Public repository for Marketo sync tool. This helper utility is something I wrote to learn Ruby language. The key initial proglem to solve was the way how Marketo provides its data only in batches. At the time, I did not have a suitable iPaaS or data extraction service available to handle that, so I took this as an opportunity to build a proof-of-concept, and also learn Ruby basics.
+Public repository for Marketo sync tool. This helper utility is something I wrote to learn Ruby language. The key initial proglem to solve was the way how Marketo provides its data only in batches when accessed through the API (i.e., by any 3rd-party integration or data sync tool). At the time, I did not have a suitable iPaaS or data extraction service available to handle that, so I took this as an opportunity to build a proof-of-concept, and also learn Ruby basics.
 
 Since then (about 2020) I'm sure things have changed, and likely very good solutions can be found for this purpose.
 
