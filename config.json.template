@@ -1,0 +1,31 @@
+{
+  "marketo_url": "https://165-TCE-001.mktorest.com",
+  "client_id": "994b5565-abcd-efgh-ijkl-39fc3580a979",
+  "client_secret": "secret",
+  "sql_server": "1.2.3.4",
+  "sql_user": "mktoupdater",
+  "sql_password": "password",
+  "sql_database": "MarketoLeads",
+  "sql_temptable": "PersonsTemp",
+  "sql_persontable": "Persons",
+  "sql_statustable": "JobStatus",
+  "sql_conntesttable": "ConnectionTest",
+  "sql_port": "1433",
+  "marketo_epoch": "2018-05-01",
+  "fields": [
+      "firstName",
+      "lastName",
+      "id",
+      "email",
+      "updatedAt",
+      "createdAt"
+      ],
+    "columnHeaderNames": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "id": "Marketo Id",
+      "email": "Email Address",
+      "updatedAt": "Updated At",
+      "createdAt": "Created At"
+    }
+  }
